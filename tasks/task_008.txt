@@ -1,0 +1,19 @@
+# Task ID: 8
+# Title: Role Assignment and Collaboration Features
+# Status: pending
+# Dependencies: 7
+# Priority: medium
+# Description: Implement functionality for assigning parts/roles and enabling real-time or asynchronous collaboration.
+# Details:
+1. Create UI for character/role assignment
+2. Implement user invitation system (email or link sharing)
+3. Set up real-time collaboration using WebSockets or similar technology
+4. Create presence indicators to show who is currently viewing/editing
+5. Implement conflict resolution for simultaneous edits
+6. Add commenting/annotation features
+7. Create notification system for collaborative events
+8. Implement permissions system (view, edit, admin)
+9. Add activity history/audit log
+
+# Test Strategy:
+Test role assignment and user invitation flows. Verify real-time updates with multiple users. Test conflict resolution with simultaneous edits. Verify that permissions are correctly enforced. Test notification delivery.

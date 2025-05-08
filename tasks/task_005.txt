@@ -1,0 +1,22 @@
+# Task ID: 5
+# Title: Document Upload and Parsing
+# Status: pending
+# Dependencies: 3, 4
+# Priority: high
+# Description: Implement functionality to upload and parse scripts in various formats (Final Draft, text, PDF, HTML, RTF).
+# Details:
+1. Create file upload UI component with drag-and-drop support
+2. Implement client-side file validation (type, size)
+3. Create backend parsers for each supported format:
+   - Final Draft (.fdx) parser
+   - Plain text parser
+   - PDF parser (using a PDF extraction library)
+   - HTML parser
+   - RTF parser
+4. Extract script metadata (title, characters, scenes)
+5. Convert all formats to a standardized internal format
+6. Implement progress indicators for upload and processing
+7. Handle parsing errors gracefully with user feedback
+
+# Test Strategy:
+Test uploading files of each supported format. Verify correct parsing and extraction of script elements. Test with malformed files to ensure proper error handling. Test with large files to ensure performance.

@@ -1,0 +1,49 @@
+# Product Requirements Document (PRD) – Table Read
+
+## Purpose
+Table Read is a modern, accessible web application for collaborative script reading. It empowers writers, actors, and creative teams to conduct remote or in-person table reads efficiently, with a beautiful, accessible UI and high-quality voice synthesis.
+
+## Problems to Solve
+- Difficulty collaborating on scripts remotely or asynchronously
+- Lack of accessible, user-friendly tools for script reading/playback
+- Manual, error-prone script sharing/editing workflows
+- Limited options for high-quality voice playback of scripts
+
+## User Stories
+1. As a user, I can sign up and authenticate securely.
+2. As a user, I can upload scripts in Final Draft, text, PDF, HTML, or RTF formats.
+3. As a user, I can flag uploads as scripts for special features.
+4. As a user, I can view, edit, and organize my scripts in a clean UI.
+5. As a user, I can assign parts/roles and collaborate in real time or asynchronously.
+6. As a user, I can play back scripts using high-quality text-to-speech (TTS).
+7. As a user, I can access all features with keyboard and screen reader support.
+8. As a user, I receive clear feedback and error messages throughout the app.
+
+## Features
+- User authentication (Supabase)
+- Script/document upload (Final Draft, text, PDF, HTML, RTF)
+- Supabase Storage for uploads, with metadata in a `documents` table
+- Row Level Security (RLS) for uploads
+- Document management: list, view, edit, delete
+- Collaborative features: assign roles, real-time/asynchronous editing
+- ElevenLabs TTS integration for script playback
+- Interactive script mode with synchronized text highlighting
+- Accessible, modern UI (TypeScript, TailwindCSS, Shadcn, Radix UI)
+- Error handling and user feedback
+- Mobile responsiveness
+
+## Technical Stack
+- Frontend: TypeScript, TailwindCSS, Shadcn, Radix UI
+- Backend: FastAPI
+- Database/Auth: Supabase
+- TTS: ElevenLabs
+- Cloudflare-compatible APIs
+
+## Acceptance Criteria
+- Users can authenticate, upload, and manage scripts
+- Uploads are securely stored and accessible only to the user
+- TTS playback works for uploaded scripts
+- Collaborative editing and role assignment are functional
+- All features are accessible (keyboard, screen reader)
+- App is performant and mobile responsive
+- Error handling and feedback are clear and helpful
