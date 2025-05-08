@@ -2,33 +2,27 @@
 
 ## Current Work Focus
 
-- Implementing core features of Table Read: document management, TTS, script practice
-- Optimizing code for Cloudflare deployment
-- Enhancing user experience with modern UI/UX patterns
+- Implementing authentication UI components (SignIn, SignUp, etc.) using the new Supabase service layer and React hooks
+- Integrating authentication flows into the app layout and protected routes
+- Continuing to enhance user experience and accessibility
 
-## Recent Changes (May 5, 2025)
+## Recent Changes (May 2025)
 
-- Implemented ElevenLabs TTS integration with Cloudflare-compatible code
-- Refactored API endpoints to use standard Web Fetch API instead of Express
-- Enhanced document management with full Supabase integration
-- Added interactive script mode with synchronized text highlighting
-- Improved AudioPlayer with playback speed and volume controls
-- Updated document listing with real-time refresh and management features
-- Cleaned up code for better maintainability and type safety
-- Added CLAUDE.md with development guidelines for the project
+- Project setup, formatting, linting, and documentation completed
+- New git and GitHub repo initialized for a clean codebase
+- Supabase authentication service layer (`src/services/auth.ts`) implemented and aligned with official recommendations
+- Custom React context and hook (`src/hooks/useAuth.tsx`) created for global auth state and helpers
+- All code is now modular, type-safe, and ready for further feature development
 
 ## Next Steps
 
-- Deploy application to production environment
-- Add script editing and collaborative features
-- Enhance user authentication flow
-- Improve mobile responsiveness
-- Conduct user testing and gather feedback
+- Build and integrate authentication UI components (SignIn, SignUp, PasswordReset, etc.)
+- Connect UI to hooks and service layer
+- Add protected routes and session management
+- Continue with collaborative and document management features
 
 ## Active Decisions & Considerations
 
-- Web API compatibility for Cloudflare deployment is a priority
-- Maintain accessibility and modern UI/UX best practices
-- Use modular, DRY, and type-safe code throughout
-- Prioritize user experience with helpful error messages and feedback
-- Continue improving documentation as project evolves
+- All architectural and tech stack decisions remain accurate
+- Continue to prioritize accessibility, modularity, and type safety
+- Documentation and memory-bank are kept up to date with each major change

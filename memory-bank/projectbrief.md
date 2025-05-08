@@ -34,3 +34,7 @@ Table Read is a modern, accessible web application designed to streamline collab
 
 - Mobile native apps (initially)
 - Advanced AI script analysis (future phase)
+
+## Implementation Notes (2025)
+
+- Authentication service layer and React context/hooks are now implemented and verified against Supabase best practices

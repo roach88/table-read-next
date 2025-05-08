@@ -44,3 +44,8 @@
 - UI components interact with services (Supabase, ElevenLabs) via well-defined interfaces
 - Authentication and user state managed globally and injected into relevant components
 - Scripts and playback managed through a combination of backend API and frontend state
+
+## Authentication Patterns (2025)
+
+- Authentication service layer (`src/services/auth.ts`) and React context/hooks (`src/hooks/useAuth.tsx`) are implemented
+- Patterns follow Supabase and React best practices for modularity, error handling, and state management

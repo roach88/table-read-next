@@ -12,6 +12,8 @@
 - Document management fully integrated with Supabase
 - Frontend document upload, listing, and refresh functionality working
 - Interactive script mode with synchronized text highlighting
+- Project setup, linting, formatting, and documentation are complete; repo is on GitHub
+- Supabase authentication service layer and React context/hooks are implemented and verified against Supabase best practices
 
 ## What's Left to Build
 
@@ -19,7 +21,7 @@
 - Further accessibility improvements and end-to-end testing
 - Deployment to Cloudflare
 - Mobile responsiveness improvements
-- User authentication flow improvements
+- User authentication UI components and integration with hooks/service layer
 - Additional voice customization options
 
 ## Current Status
@@ -29,12 +31,13 @@
 - Core features implemented: file upload, document management, TTS integration, script practice
 - Most Cloudflare compatibility issues resolved (using Web APIs instead of Node.js)
 - Ready for deployment and user testing
+- Authentication service and hooks are ready; UI integration is next
 
 ## Known Issues
 
 - No major issues at this stage; core functionalities are implemented and working
 
-### May 5, 2025
+### May 2025
 
 - Completed ElevenLabs TTS integration with Cloudflare-compatible APIs
 - Implemented full document management with Supabase
@@ -42,13 +45,14 @@
 - Enhanced audio player with playback speed and volume controls
 - Updated all API endpoints to use standard Web APIs instead of Express
 - Improved user interface with better error handling and feedback
+- Supabase authentication service and hooks implemented and verified
 
 **Next:**
 
-- Deploy to production environment
-- Enhance user authentication flow
-- Add script editing and collaboration features
-- Conduct user testing and gather feedback
+- Build and integrate authentication UI components
+- Connect UI to hooks and service layer
+- Add protected routes and session management
+- Continue with collaborative and document management features
 
 ---
 

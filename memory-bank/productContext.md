@@ -29,3 +29,7 @@ Table Read exists to make collaborative script reading accessible, efficient, an
 - Seamless collaboration and sharing
 - High accessibility (keyboard, screen reader, etc.)
 - Delightful, modern design using TailwindCSS, Shadcn, and Radix UI
+
+## Implementation Notes (2025)
+
+- Authentication service layer and React context/hooks are now implemented and verified against Supabase best practices

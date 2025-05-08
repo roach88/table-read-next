@@ -55,3 +55,8 @@ The following refactoring has been completed to enable deployment on Cloudflare:
   - Web API compatible alternatives now used throughout
 
 See `systemPatterns.md` for architectural details. The application is now ready for Cloudflare deployment.
+
+## Authentication Implementation (2025)
+
+- Authentication service layer (`src/services/auth.ts`) and React context/hooks (`src/hooks/useAuth.tsx`) are implemented
+- Implementation is verified against Supabase best practices
